@@ -1,0 +1,30 @@
+---
+title: "Resumen Demografía"
+author: "Ana G. Nava"
+date: "2/9/2022"
+output: 
+html_document:
+  toc:yes
+  tocs_depth:2
+long: es-ES
+---
+# Definiciones
+### Población: 
+Conjunto de individuos, constituido de forma estable, ligado por vínculos de reproduccción e identificando características territoriales, políticas, jurídicas, étnicas o religiosas. 
+Nota: una colectividad que no se reproduce no es, un objeto de atención del demógrafo.
+Una población tiende a perpetuarse y a permanecer en el tiempo, pero ello no significa que sea eterno. 
+
+#Componentes básicos de una población y su estructura
+##Individudos
+
+Se pueden clasificar en función de innumerables características, que unidas al conocimiento de las socioeconómicas y biofísicas permiten construir un perfil individual útil para interpretar y entender los fenómenos relacionados a la fecundiad, la mortalidad y la movilidad. 
+
+## Procesos de cohesión y de agregación en una población
+
+Las poblaciones no son meras sumas de individuos ya que en su formación interviene en procesos de cohesión que agregan los individuos en parejas como familias, comunidades o grupos de complejidad y dimensiones superiores. Las parejas como a los núcleos fila familiares y los conjuntos de familias se forman por nupcialidad como a fecundidad y movilidad y se deshacen por la intervención de sus contrarios. 
+Los procesos de agregación y de cohesión son necesariamente selectivos; es decir, no ejercen la misma presión sobre cada individuo y que la diversa intensidad de su efecto no se debe a factores casuales.
+Así pues coma es también objeto de estudio de la demografía la forma en que se distribuyen y agrupan las poblaciones en parejas, familias, comunidades, etcétera. Del mismo modo en que las distintas combinaciones de fecundidad y mortalidad determinan la estructura por sexo y edad de la población com a las distintas combinaciones de las fuerzas de cohesión y de sus contrarios determinan los infinitos ordenamientos estructurales posibles de las poblaciones en parejas, familias y comunidades.
+
+
+## Las dos almas de la demografía: lo biológico y lo social
+
