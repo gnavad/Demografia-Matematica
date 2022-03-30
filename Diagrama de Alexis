@@ -1,0 +1,74 @@
+---
+title: "Diagrama de Alexis"
+output: pdf_document
+date: '2022-03-11'
+---
+Tambien es conocido como linea de vida.El diagrama de Alexis ayuda a comprender algunos eventos y fenomenos demograficos a traves de una linea en el tiempo. Tiene que ver con una limitacion temporal demografica es esencial el tiempo como un elemento indispensable para analizar la dinamica n¿constante y cambios en espacios poblacionales.
+en particular, en la demografia podemos definir dos tipos de tiempos:   
+ 1) tiempo calendario  
+ 2) tiempo de eventos demograficos   
+ 
+**Por ejemplo:**La edad se puede medir en dos sentidos, por un lado, se mide a partir del nacimiento. Por el otro lado, se puede en años cumplidos (aniversario)
+
+En demografia existe el concepto de edad exacta.Este concepto de edad exacta se puede ejemplificar de la siguiente manera: 
+Supongamos que una persona nacio el 23 de Julio de 1985 y queremos saber su edad exacta al dia de hoy, es decir, cuantos años exactos tiene al 11 de Marzo del 2022.
+36 años 262 dias $$36+(262/365)= 36.72$$
+\begin{center}Edad exacta\end{center}
+
+
+\begin{center}REPRESENTACIÓN GRÁFICA\end{center}
+
+Un elemento importante que interesa en los fenomenos demograficos es el numero de eventos que ocurren a traves del tiempo, en este sentido, en el diagrama de Alexis se puede representar los nacimientos, las defunciones, los matrimonios, etc. en este diagrama seran tomados los año calendario y las edades cumplidas.
+
+**Flujo:** con la poblacion que permanece en el tiempo.   
+**Efectivo:** ocurrencia de un evento en un tiempo determinado.   
+**Cohorte:** grupo de individuos o personas que experimentan un evento durante un tiempo determinado (cohorte casados en el 2021).  
+**Generacion:** grupo de individuos que nace en un momento determinado.   
+
+Ahora vamos a plantear algunos eventos demograficos que ocurren en el diagrama planteado:  
+ab= nacimientos 1990  
+ac+bd= 2 lineas de vida   
+abc= defunciones de 1990  
+cbd= defunciones de 1991  
+
+Digamos que en demografia se pueden plantear tres tipos de analisis:     
+**1) transversal:** que se asocia a un momento en el tiempo.   
+**2) longitudinal:** que se vincula con estudios a traves del tiempo, es decir, analisis a una generacion o a una cohorte.   
+**3) retrospectivos:** se vinculan con los estudios que se realizan en un tiempo pasado, es decir, el analisis de vida una poblacion adulta mayor durante su juventud.   
+
+ 
+ En particular vamos a ver el analisis longitudinal que se relaciona con el diagrama de alexis, uno de los aspectos importantes del diagrama de alexis, tiene que ver con analisis longitudinales.Por ejemplo, los nacimientos, las defunciones, la nupcialidad se les llama eventos demograficos, de estos eventos, surgen fenomenos demograficos como la fecundidad, la mortalidad, y la migracion. 
+ 
+ 
+\begin{center}MEDIDAS DEMOGRAFICAS\end{center}
+
+**MEDIDAS RELATIVAS**   
+**Razones:** es el cociente entre dos magnitudes independientes   
+*Por ejemplo:*   
+\begin{center}Poblacion masculina /poblacion femenina\end{center}
+\begin{center}Cuantos hombres hay con respecto a la poblacion femenina.\end{center}
+Pob masculina = 45421  
+Pob femenina =46185  
+$$45421/46185=98.348.$$ **Por cada 100 mujeres hay 98 hombres**  
+
+
+**Proporciones:** es la relacion entre dos medidas de efectivos o flujo  
+*Por ejemplo:*  
+\begin{center}Poblacion masculina/poblacion total\end{center} \begin{center}Porporcion de hombres con respecto a la poblacion total\end{center}
+Pobmasculina=45421  
+Pobtotal=91601  
+$$45421/91601=0.4958$$ **La proporcion de hombres en la poblacion es de 0.49 si lo traducimos a porcentaje multiplicado por 100, podriamos señalar que por cada 100 habitantes 49 son hombres.**
+
+
+**Tasas:** es el cociente entre un flujo y un efectivo  
+*Por ejemplo:*
+\begin{center}nacimientos en un año /la poblacion masculina\end{center} 
+Nacimientos=2290  
+Poblacion = 92384   
+$$2290/92384 =0.002485$$ **Multiplicamos por 1000 y tendriamos que por cada 1000 habitantes nacen 84 personas**   
+*Por ejemplo:*
+\begin{center}Tasas de crecimiento poblacional: nacimientos-defunciones/poblacion a mitad de años\end{center}
+Nacimientos=2290  
+Defunciones=420
+Pob=92394
+$$(2290-420)/92394=0.202$$
