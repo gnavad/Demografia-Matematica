@@ -1,0 +1,50 @@
+---
+title: "Ejercicio Guerrero"
+output: html_document
+date: '2022-03-30'
+author: 'Ana Gabriel Nava Díaz'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Guerrero
+
+Población 2020:  3,540,685 habitantes
+Nacimientos:43,159
+Defunciones:19,448
+Inmigrantes Internos: 58,096
+Emigración Interna: 192,761 
+$$TBN_{2020}=(\frac{43,159}{3,540,685})=0.012198$$
+$$TBM_{2020}=\frac{19,448}{3,540,685}=0.005492$$
+$$TBI_{2020}=\frac{58,096}{3,540,685}=0.016408$$
+$$TBE_{2020}=\frac{192,761}{3,540,685}=0.05444$$
+x<-3
+y<-4`
+hipotenusa<-function(x,y){return(sqrt(x^2+y^2))}
+hipotenusa
+pob<-33333222
+nacimientos 
+TBN<-nacimientos/pob
+Entidades<-c("Ags","Edo. Méx", "Chiapas")
+TBN<-c(0.0142886,0.01080,0.03949)
+TBM<-c(0.0069605,0.0089,0.02247131)
+TBI<-c(0.1939034,0.03054,0.04490611)
+TBE<-c(0.0101438,0.079,0.1270692)
+base<-data.frame(Entidades, TBN, TBM, TBI, TBE)
+base1<-base[,2:5]*100
+
+
+##Proporción de Sexos al Nacimiento
+La proporción de sexos al nacimiento se define de la siguiente manera: 
+$$PSN=\frac{Nacimientos_{Hombres}}{Nacimientos_{Mujeres}}=\frac{30,416}{29,606}=1.02735$$
+##Proporción de niñas por mujer
+PNM=POB_<5años/Población_Femenina
+POB_<5años=1834192
+PobFemenina_15-44=
+PNM=POB_<5años/PobFemenina_15-44
+
+##Tasa de dependencia
+La tasa de dependencia se relaciona a las personas que tiene más posibilidades de ser dependientes
+TD=(P_0-14+P_65+)/(Pob_15-44)
