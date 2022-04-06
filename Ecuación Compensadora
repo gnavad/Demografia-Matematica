@@ -1,0 +1,62 @@
+---
+title: "Ecuación Compensadora"
+author: "Ana Gabriel Nava Díaz"
+output: html_document
+date: '2022-03-16'
+---
+##Ecuación Compensadora: Migración Internacional
+Es una de los principales elementos de la demografía y se plantea de la siguiente manera: 
+
+$$P_{t+n}=P_{t}+N_{t \rightarrow tm}-D_{t \rightarrow tm}+I_{t \rightarrow tm}-E_{t \rightarrow tm}$$
+Donde: 
+$$N=Nacimientos$$
+$$D=Defunciones$$
+$$I=Inmigrantes$$
+$$E=Emigrantes$$
+$$\Rightarrow P_{2022}=P_{2021}+N_{2021 \rightarrow 22}-D_{21\rightarrow22}+I_{21\rightarrow 22}-E_{21 \rightarrow 22} $$
+La diferencia entre la población final y la inicial, nos mostrará en qué proporción creció nuestra población. 
+
+$$CP=CN+CS$$
+Donde: 
+$$CP= Crecimiento.  Poblacional$$
+$$CN=Crecimiento. Natural$$
+$$CS= Crecimiento .Social$$
+Por ejemplo:
+Supongamos que tenemos lo siguiente: 
+$$Pob_{2004}=293,657,000$$
+$$Pob_{2005}=296,420,000$$
+$$N_{2004-2005}=4,129,000$$
+$$D_{2004-2005}=2,425,000$$
+$$I_{2004-2005}=1,122,00$$
+$$E_{2004-2005}=73,000$$
+$$\Rightarrow (296,410,000-293,657,000)=(4,129,000-2,425,000)+(1,122,00-73,000)$$
+$$\left\{\begin{matrix}
+CP= &27,53,000 \\ 
+ CN=&1,704,000 \\ 
+ CS=& 1,049,000
+\end{matrix}\right.$$
+
+## Ecuación Compensadora: Migración Interna
+$$P_{t+n}=P_{t}+N_{t+n}-D_{t+n}+I_{t+n}-E_{t+n}+\widehat{I}_{t+n}-\widehat{E}_{t+n}$$
+| **Entidades** 	| **CN<br>2005** 	| **$$CS_{I}$$** 	| **$$\widehat{CS}_{I}$$** 	| **CP** 	|
+|:---:	|:---:	|:---:	|:---:	|---	|
+| Edo Méx 	| 44,441 	| 49,607 	| -12,202 	|  	|
+| Michoacán 	| 32,585 	| 44,347 	| 3,381 	|  	|
+| Chiapas 	| 35,065 	| 30,486 	| 7,391 	|  	|
+| Baja California 	| 6,724 	| 9,364 	| -2,653 	|  	|
+| Nuevo León 	| 18,518 	| 29,314 	| 4,996 	|  	|
+| Jalisco 	| 2,001 	| 1,044 	| 174 	|  	|
+| Sinaloa 	| 2,629 	| 699 	| -2,393 	|  	|
+| Guanajuato 	| 3,228 	| 1940 	| 1,306 	|  	|
+| TOTAL 	| 145,191 	| 16,689 	| 0 	| **311992** 	|
+
+### Tasas de Crecimiento Poblacional 
+
+1. Tasa de Crecimiento Anual
+$$TCA=\frac{(P_{t+1}-P_{t})}{P_{t}}=\frac{(296,410,000-293,657,000)}{293,657}=0.009357$$
+2. Tasa de Crecimiento Exponencial (Población)
+$$TCE=P_{t}*e^{r*n}$$
+Donde: 
+$$P_{t}=Población.Inicial$$
+$$r=Tasa.de.crecimiento.exponencial$$
+$$n=Número.de.años$$
