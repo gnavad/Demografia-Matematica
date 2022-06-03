@@ -1,0 +1,107 @@
+---
+title: "Tablas de vida"
+author: "Ana G Nava"
+date: '2022-05-25'
+output: html_document
+---
+
+#Tablas de vida
+
+En el análisis demográfico ha existido una inquietud desde sus inicios, la cual consiste en conocer la longevidad de la poblacióon o el estudio del número de años que viven las personas. 
+
+Es importante señalar que la longevidad ha tenido una serie de cambios a través del tiempo y en las diferentes regiones.
+Las diferencias en la mortalidad se presentan entre la población, en las edades, en el sexo, nivel socieconómico, etc. 
+
+Estas diferencias pueden ser matizadas a través de una medida que consiste en conocer cuántos años vive un cohorte nacida en un año n. 
+
+La idea de una tabla de vida es conocer como. viven en promedio las personas hasta que se extigan, con esto se puede obter el número de años en promedio que vive la población estudiada. 
+
+Las tablas de vida se proponen como una estimación de la esperanza de vida, se utilizan tablas de sobrevivencia en edades desplegadas o grupos de edad.
+Para la construcción de un tabla de vida (TV) se plantean los siguientes supuestos: 
+
+  1.-En la población estudiada NO HAY MIGRACIÓN 
+  
+2.-Las tasas específicas de mortalidad no cambian en el tiempo. 
+
+3.-La población es de 100,000 personas
+
+
+Por otro lado, la TV se puede calcular por sexo, o por toda la población. 
+La información mínima para calcular la TV es el número de defunciones por edad y la población a mitad de año.
+
+### Construcción de una TV
+
+-Población hipotética de 100,000 personas en el año t.
+
+
+1.-Tasas específicas de mortalidad
+$$M_{x}=\frac{d_{x}}{P_{x}}$$
+Donde: 
+
+$M_{x}=$Tasa específica de mortalidad en la edad $x$
+
+$d_{x}=$defunciones en la edad $x$
+
+$P_{x}=$Población a mitad de año en la edad $x$
+
+##Probabilidad de muerte
+
+La probabilidad de muerte se representa a través de $q_{x}$ y se define como la probabilidad de morir entre la edad $x$ y $x+1$
+
+$q_{x}=\frac{d_{x}}{P_{x}+\frac{1}{2}d_{x}}$
+Donde:
+$q_{x}=$Probabilidad de morir a la edad $x$
+$d_{x}=$defunciones a la edad $x$
+$P_{x}=$Población a mitad de muerte
+
+Sabemos que: 
+$M_{x}=\frac{d_{x}}{P_{x}}\Rightarrow d_{x}=M_{x}P_{x}$
+
+$q_{x}=\frac{M_{x}P{x}}{P_{x}+\frac{1}{2}M_{x}P_{x}}$
+
+$\Rightarrow q_{x}=\frac{m_{x}P_{x}}{\frac{2P_{x}+m_{x}P_{x}}{2}}\Rightarrow q_{x}=\frac{2M_{x}P_{x}}{2P_{x}+M_{x}P_{x}}$
+
+$\therefore q_{x}=\frac{2m_{x}}{2+m_{x}}$
+
+La ecuación $q_{x}$ es válida para las edades mayores a $a_{1}$, por lo que la probabilidad de morir entre 0 y 1 año es:
+
+$q_{0}=\frac{d_{0}}{N}$
+Donde:
+$q_{0}=$Probabilidad de morir edad 0
+
+$d_{0}=$Número de muertes edad 0 
+
+$N=$Nacidos vivos de la población en estudio.
+
+Por otro lado, también se considera que las personas mayores a 100 años se mueren todas por lo que plantea:
+
+$q_{w}=1$
+Con base en lo anterior, se puede plantear la probabilidad de sobrevivencia como:
+
+$P_{x}=1-q_{x}$
+
+Donde $P_{x}$ es la probabilidad de sobrevivencia edad x. 
+
+$q_{x}=$Probabilidad de morir a la edad x.
+
+Con $q_{x}$ y la población inicial de 100,000 el número de muertes $(d_{x})$ de la edad $x$ a $x+1$ se puede conocer mediante otro indicador que es $l_{x}$ y se define como los sobrevivientes a la edad $x$.
+$\Rightarrow d_{x}=q_{x}*l_{x}$
+Donde: 
+
+$d_{x}=$defunciones a la edad $x$
+
+$q_{x}=$prob morir  a la edad $x$
+
+$l_{x}=$num sobrevivientes edad x $x$
+
+$\Rightarrow l_{x+1}=l_{x}-d_{x}$
+
+### Años, personas, vividos y esperanza de vida
+Los años personas vividos se definen como aquellos que sobreviven desde la edad 0 hasta la edad x se plantea como $L_{x}$
+
+$L_{x}=l_{x+1}+\frac{1}{2}d_{x}$
+
+Sustituyendo $d_{x}$
+
+
+
