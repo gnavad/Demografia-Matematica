@@ -1,0 +1,45 @@
+---
+title: "Fecundidad"
+author: "Ana G Nava"
+date: '2022-04-20'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Fecundidad
+En la demografía existen 2 conceptos necesarios para diferenciar; 
+Fecundidad: se refiere al número de hijos que tienen las mujeres
+Fertilidad: se refiere a la capacidad biológica de la mujer de tener hijos. 
+Factores que impactan en la fecundidad: 
+*  Económica
+*  Estado Civil
+*  Fisiológicas
+*  Educación
+*  Cultura 
+*  Familia 
+*  Movilidad
+*  Acceso a anticonceptivos
+*  Mercado de trabajo
+
+### Tasa Bruta de Natalidad
+$$TBN=\frac{Nacimientos}{Población}$$
+Normalmente esta TBN se utiliza de manera anual y se interpreta en miles de personas.
+Por ejemplo:
+$$Nacimientos= 470,000$$
+$$Población= 27,720,000$$
+$$TBN=\frac{470,000}{27,720,000}=0.017$$
+La TBN también se puede interpretar multiplicándola por 1000, es decir,  en esta población nacen 17 niños por cada 1000 personas. 
+¿Cuántos hijos puede tener una mujer durante su vida fertil? 
+Suponga que inicia a los 15 y termina a los 45. 
+
+### Tasas Específicas de la  fecundidad
+$$$TEF=\frac{Nacimiento}{Población femenina}$$
+
+### Tasas generales de la fecundidad
+$$TGF=\frac{\sum_{i=15}^{44}Nacimientos^{i}}{\sum_{i=15}^{44}PoblacionFemenina^{i}}$$
+
+
+
